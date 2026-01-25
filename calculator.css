@@ -22,8 +22,8 @@ button {
 
 .calculator {
   border: 3px solid black;
-  width: 335px;
-  height: 250 px;
+      width: 431px;
+  height: 250px;
 }
 
 .display {
@@ -39,7 +39,7 @@ button {
   margin: 30px 20px;
   display:grid;
   grid-template-columns: repeat(2, 60px);
-
+  /* padding: 0 60px; */
   gap:10px;
 }
 
@@ -47,6 +47,12 @@ button {
   background-color:   lightblue;
 }
 
+
+.buttons {
+  display:flex;
+  /* grid-template-columns: 3fr 1fr; */
+
+}
 
 
 
@@ -83,7 +89,7 @@ button {
 
 button{
   height: 45px;
-} */
-
+}
+ */
 
 
